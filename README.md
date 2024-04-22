@@ -56,3 +56,13 @@ When i tried to run `cargo run` in both directory, these are the outputs that i 
 ![Subscriber](https://cdn.discordapp.com/attachments/1111642397248598067/1231977751733342208/image.png?ex=6638ebb1&is=662676b1&hm=becad5d199cf9b1e9c94df51bf7991d36427c5fb32e8aa49215a74042b735744&)
 
 It is clear that when i run the Publisher, it will send 5 events to the message broker (which will be consumed by Subscriber).
+
+
+**e. Monitoring chart based on publisher.**
+
+![Chart RabbitMQ](https://cdn.discordapp.com/attachments/1111642397248598067/1231978660815306773/image.png?ex=6638ec89&is=66267789&hm=94cd847b340586fead1af750e6a83080806778dfc82ee5f0145218ae3d448e84&)
+
+I set the chart to display for last minutes. 
+The graph displaying spikes is the Message Rates graph. 
+It illustrates how many messages were sent by the publisher within the last minute. 
+The higher the spike, the faster the message rate.

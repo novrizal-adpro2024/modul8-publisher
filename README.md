@@ -40,3 +40,7 @@ It also means that the subscriber program is configured to connect to the messag
 - `guest:guest@`: Default credentials for accessing the messaging system. `guest` is usually the default username and password.
 - `localhost`: Refers to the hostname or IP address of the server where the messaging system is running. 
 - `5672`: Default port number for AMQP connections.
+
+**c. Running RabbitMQ as message broker.**
+
+![Running RabbitMQ](https://cdn.discordapp.com/attachments/1111642397248598067/1231972806309445693/image.png?ex=6638e715&is=66267215&hm=d86c4c43c7663b85cf121f1a58f874d2d52d4b56e397a6494361085dac462adc&)

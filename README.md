@@ -44,3 +44,15 @@ It also means that the subscriber program is configured to connect to the messag
 **c. Running RabbitMQ as message broker.**
 
 ![Running RabbitMQ](https://cdn.discordapp.com/attachments/1111642397248598067/1231972806309445693/image.png?ex=6638e715&is=66267215&hm=d86c4c43c7663b85cf121f1a58f874d2d52d4b56e397a6494361085dac462adc&)
+
+**d. Sending and processing event.**
+
+When i tried to run `cargo run` in both directory, these are the outputs that i received:
+
+- Publisher
+![Publisher](https://cdn.discordapp.com/attachments/1111642397248598067/1231977535466901585/image.png?ex=6638eb7d&is=6626767d&hm=276152253b0c9e7c02f08f5f52cc1f6e76cd0bbcda1b1bb201421b5f66020782&)
+
+- Subscriber
+![Subscriber](https://cdn.discordapp.com/attachments/1111642397248598067/1231977751733342208/image.png?ex=6638ebb1&is=662676b1&hm=becad5d199cf9b1e9c94df51bf7991d36427c5fb32e8aa49215a74042b735744&)
+
+It is clear that when i run the Publisher, it will send 5 events to the message broker (which will be consumed by Subscriber).
